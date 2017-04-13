@@ -34,6 +34,7 @@ class BitGroupAdminForm(forms.ModelForm):
 
     class Meta:
         model = BitGroup
+        fields = '__all__'
 
 
 class BitGroupAdmin(admin.ModelAdmin):
